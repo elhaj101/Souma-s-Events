@@ -42,7 +42,7 @@ header{color:blue;}
     }
 
     a:hover {
-        background-color: #575757;
+        background-color:grey;
         border-radius: 4px;
     }
 
@@ -50,17 +50,19 @@ header{color:blue;}
         nav {
             flex-direction: column;
             align-items: flex-start;
+            background-color: rgba(18, 148, 235, 0.05); /* Adjusted to use rgba correctly */
         }
-
+    
         ul {
             flex-direction: column;
             width: 100%;
         }
-
+    
         li {
             margin: 10px 0;
         }
     }
+    
     .home{ 
         background-size: cover; /* Ensures the image covers the entire area */
         background-position: center; /* Centers the image */
