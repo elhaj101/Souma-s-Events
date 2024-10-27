@@ -7,7 +7,7 @@ body {                  /* This is the second most generic element */
     min-height: 100vh ; /*. this allows the body to stretch larger than the screen even when content is not enough       */
     display:flex;
     flex-direction: column;
-    color: brown;
+    color: black;
     font-family:'Lato',sans-serif;
 }
 
@@ -21,11 +21,7 @@ header{color:blue;}
         padding: 10px 20px;
     }
 
-    .brand {
-        color: white;
-        font-size: 24px;
-        font-weight: bold;
-    }
+    
 
     ul {
         list-style: none;
