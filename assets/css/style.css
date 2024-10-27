@@ -61,5 +61,13 @@ header{color:blue;}
             margin: 10px 0;
         }
     }
+    .home{background-image: url(../images/home.jpg);}
+    .contact{background-image: url(../images/contact.jpg);}
+    .aboutus{background-image: url(../images/pexels-bohlemedia-1196828.jpg);}
+    .decoration{background-image: url(../images/deco.jpg);}
+    .photography{background-image: url(../images/photo.jpg);}
+    .catering{background-image: url(../images/pexels-orlovamaria-4916558.jpg);}
+    .locations{background-image: url(../images/pexels-iva1953-17502.jpg);}
+    
 main{color:cadetblue;}
 footer{color:chocolate;}
