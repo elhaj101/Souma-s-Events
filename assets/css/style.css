@@ -10,3 +10,8 @@ body {                  /* This is the second most generic element */
     color: brown;
     font-family:'Lato',sans-serif;
 }
+
+header{color:blue;}
+nav{color:brown;}
+main{color:cadetblue;}
+footer{color:chocolate;}
