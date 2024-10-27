@@ -61,13 +61,41 @@ header{color:blue;}
             margin: 10px 0;
         }
     }
-    .home{background-image: url(../images/home.jpg);}
-    .contact{background-image: url(../images/contact.jpg);}
-    .aboutus{background-image: url(../images/pexels-bohlemedia-1196828.jpg);}
-    .decoration{background-image: url(../images/deco.jpg);}
-    .photography{background-image: url(../images/photo.jpg);}
-    .catering{background-image: url(../images/pexels-orlovamaria-4916558.jpg);}
-    .locations{background-image: url(../images/pexels-iva1953-17502.jpg);}
+    .home{ 
+        background-size: cover; /* Ensures the image covers the entire area */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        background-image: url(../images/home.jpg);}
+    .contact{
+        background-size: cover; /* Ensures the image covers the entire area */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        background-image: url(../images/contact.jpg);}
+    .aboutus{
+        background-size: cover; /* Ensures the image covers the entire area */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        background-image: url(../images/pexels-bohlemedia-1196828.jpg);}
+    .decoration{
+        background-size: cover; /* Ensures the image covers the entire area */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        background-image: url(../images/deco.jpg);}
+    .photography{
+        background-size: cover; /* Ensures the image covers the entire area */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        background-image: url(../images/photo.jpg);}
+    .catering{
+        background-size: cover; /* Ensures the image covers the entire area */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        background-image: url(../images/pexels-orlovamaria-4916558.jpg);}
+    .locations{
+        background-size: cover; /* Ensures the image covers the entire area */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        background-image: url(../images/pexels-iva1953-17502.jpg);}
     
 main{color:cadetblue;}
 footer{color:chocolate;}
