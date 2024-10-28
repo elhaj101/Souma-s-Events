@@ -50,6 +50,7 @@ header{
     a:hover {
         background-color:grey;
         border-radius: 4px;
+        transition: background-color 0.15s; /* Add transition for smooth effect */
     }
 
     @media (max-width: 600px) {
