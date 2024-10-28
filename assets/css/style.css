@@ -68,6 +68,11 @@ header{
         li {
             margin: 10px 0;
         }
+        a:hover {
+            background-color: grey;
+            border-radius: 4px;
+            transition: background-color 0.15s; /* Add transition for smooth effect */
+        }
     }
     
     .home{ 
