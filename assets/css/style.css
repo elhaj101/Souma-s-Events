@@ -57,6 +57,7 @@ header{
             flex-direction: column;
             align-items: flex-start;
             background-color: rgba(5, 30, 55, 0.7); /* Slightly transparent blue */
+            height:100%;
         }
     
         ul {
