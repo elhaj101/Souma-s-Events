@@ -65,6 +65,11 @@ font-family: oswald;}
         transition: background-color 0.15s; /* Add transition for smooth effect */
     }
 
+    .div1 { 
+       
+        background-color:#085b61;}
+    .div2 { background-color: blue;}
+
     @media (max-width: 600px) {
         header {
             display: flex;
