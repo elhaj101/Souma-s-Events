@@ -21,14 +21,14 @@ body {                  /* This is the second most generic element */
 header{
     display:flex;
     justify-content: center;
-   
-    height: 60px;
+    background-image: linear-gradient(to top, #051e37, #384163, #6d6691, #a88cbe, #e8b5e9);
+    height: 150px;
     color:#530861;
     font-size: 50px;
 font-family: oswald;}
 
 
-    .div0 { height:65px;}
+    .div0 { height:30px;}
 
     nav {
         background-color: black;
@@ -139,4 +139,12 @@ font-family: oswald;}
         background-image: url(../images/pexels-iva1953-17502.jpg);}
     
 main{color:cadetblue;}
-footer{color:chocolate;}
+footer {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 60px; /* Set a height for the footer */
+    background-color: chocolate; /* Background color for visibility */
+    color: white; /* Text color for contrast */
+    margin-top: auto; /* Push the footer to the bottom */
+}
