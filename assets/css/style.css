@@ -74,39 +74,10 @@ a:hover {
     transition: background-color 0.15s; /* Add transition for smooth effect */
 }
 
-.div1 {
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    font-size: 140%;
-    background-color: #085b61;
-    padding: 20px; /* Add padding for better spacing */
-}
 
-.media {
-    display: flex; /* Use flexbox for layout */
-    justify-content: center; /* Center items in the row */
-    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-    margin-top: 20px; /* Space above media elements */
-}
 
-/* Style for images and videos */
-.media img, 
-.media video {
-    max-width: 100%; /* Make images and videos responsive */
-    height: auto; /* Maintain aspect ratio */
-    margin: 0 10px; /* Space between items */
-}
 
-/* Specific styling for images */
-.media img {
-    flex: 0 1 30%; /* Allow images to grow, but set a base size */
-}
 
-/* Specific styling for video */
-.media video {
-    flex: 0 1 30%; /* Allow video to grow, but set a base size */
-    max-width: 100%; /* Ensure video fits within the container */
-}
 
 
 /* Section Background Images */
