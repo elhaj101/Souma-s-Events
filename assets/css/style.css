@@ -66,9 +66,11 @@ font-family: oswald;}
     }
 
     .div1 { 
-       
+        font-size: 140%;
         background-color:#085b61;}
-    .div2 { background-color: blue;}
+    .div2 { 
+        font-size:140%;
+        background-color: blue;}
 
     @media (max-width: 600px) {
         header {
