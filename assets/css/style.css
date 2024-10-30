@@ -1,146 +1,155 @@
-.oswald {
+/* Font Styles */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&family=Lato:wght@400&display=swap');
+
+oswald {
     font-family: "Oswald", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
-  
-* {                 /* The most generic style element and affetcs the whole file       */            
-    padding:0; 
-    margin:0;
-    box-sizing:border-box;
-}
-body {                  /* This is the second most generic element */
-    min-height: 100vh ; /*. this allows the body to stretch larger than the screen even when content is not enough       */
-    display:flex;
-    flex-direction: column;
-    color: black;
-    font-family:'Lato',sans-serif;
 }
 
-header{
-    display:flex;
+/* Reset Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    min-height: 100vh; /* Allows the body to stretch larger than the screen */
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header Styles */
+header {
+    display: flex;
     justify-content: center;
     background-image: linear-gradient(to top, #051e37, #384163, #6d6691, #a88cbe, #e8b5e9);
     height: 150px;
-    color:#530861;
+    color: #530861;
     font-size: 50px;
-font-family: oswald;}
+    font-family: oswald;
+}
+
+/* Spacing Divs */
+.div0 {
+    height: 30px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 60px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-left: 100px;
+}
+
+a {
+    color: #A50FC1;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: grey;
+    border-radius: 4px;
+    transition: background-color 0.15s; /* Add transition for smooth effect */
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    font-size: 140%;
+    background-color: #085b61;
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.media {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center items in the row */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    margin-top: 20px; /* Space above media elements */
+}
+
+/* Style for images and videos */
+.media img, 
+.media video {
+    max-width: 100%; /* Make images and videos responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Space between items */
+}
+
+/* Specific styling for images */
+.media img {
+    flex: 0 1 30%; /* Allow images to grow, but set a base size */
+}
+
+/* Specific styling for video */
+.media video {
+    flex: 0 1 30%; /* Allow video to grow, but set a base size */
+    max-width: 100%; /* Ensure video fits within the container */
+}
 
 
-    .div0 { height:30px;}
+/* Section Background Images */
+.home, .contact, .aboutus, .decoration, .photography, .catering, .locations {
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
 
-    nav {
-        background-color: black;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px 20px;
-        height: 60px;
-    }
+.home {
+    background-image: url(../images/home.jpg);
+}
 
-    
+.contact {
+    background-image: url(../images/contact.jpg);
+}
 
-    ul {
-        list-style: none;
-        display: flex;
-        margin: 0;
-        padding: 0;
-    }
+.aboutus {
+    background-image: url(../images/pexels-bohlemedia-1196828.jpg);
+}
 
-    li {
-        margin-left: 100px;
-    }
+.decoration {
+    background-image: url(../images/deco.jpg);
+}
 
-    a {
-        color: #A50FC1;
-        text-decoration: none;
-        padding: 8px 16px;
-        transition: background-color 0.3s;
-    }
+.photography {
+    background-image: url(../images/photo.jpg);
+}
 
-    a:hover {
-        background-color:grey;
-        border-radius: 4px;
-        transition: background-color 0.15s; /* Add transition for smooth effect */
-    }
+.catering {
+    background-image: url(../images/pexels-orlovamaria-4916558.jpg);
+}
 
-    .div1 { 
-        font-size: 140%;
-        background-color:#085b61;}
-    .div2 { 
-        font-size:140%;
-        background-color: blue;}
+.locations {
+    background-image: url(../images/pexels-iva1953-17502.jpg);
+}
 
-    @media (max-width: 600px) {
-        header {
-            display: flex;
-            justify-content: center;
-            color:#530861;
-            font-size: 200%;
-            font-family: oswald;
-            padding-top: 7%;
-        }
-        nav {
-            flex-direction: column;
-            align-items: flex-start;
-            background-color:rgba(165, 15, 193, 0.5);
-            height:100%;
-        }
-    
-        ul {
-            flex-direction: column;
-            width: 100%;
-        }
-    
-        li {
-            margin: 10px 0;
-        }
-        a{ color:white;}
-        a:hover {
-            background-color: grey;
-            border-radius: 4px;
-            transition: background-color 0.15s; /* Add transition for smooth effect */
-        }
-    }
-    
-    .home{ 
-        background-size: cover; /* Ensures the image covers the entire area */
-        background-position: center; /* Centers the image */
-        background-repeat: no-repeat; /* Prevents the image from repeating */
-        background-image: url(../images/home.jpg);}
-    .contact{
-        background-size: cover; /* Ensures the image covers the entire area */
-        background-position: center; /* Centers the image */
-        background-repeat: no-repeat; /* Prevents the image from repeating */
-        background-image: url(../images/contact.jpg);}
-    .aboutus{
-        background-size: cover; /* Ensures the image covers the entire area */
-        background-position: center; /* Centers the image */
-        background-repeat: no-repeat; /* Prevents the image from repeating */
-        background-image: url(../images/pexels-bohlemedia-1196828.jpg);}
-    .decoration{
-        background-size: cover; /* Ensures the image covers the entire area */
-        background-position: center; /* Centers the image */
-        background-repeat: no-repeat; /* Prevents the image from repeating */
-        background-image: url(../images/deco.jpg);}
-    .photography{
-        background-size: cover; /* Ensures the image covers the entire area */
-        background-position: center; /* Centers the image */
-        background-repeat: no-repeat; /* Prevents the image from repeating */
-        background-image: url(../images/photo.jpg);}
-    .catering{
-        background-size: cover; /* Ensures the image covers the entire area */
-        background-position: center; /* Centers the image */
-        background-repeat: no-repeat; /* Prevents the image from repeating */
-        background-image: url(../images/pexels-orlovamaria-4916558.jpg);}
-    .locations{
-        background-size: cover; /* Ensures the image covers the entire area */
-        background-position: center; /* Centers the image */
-        background-repeat: no-repeat; /* Prevents the image from repeating */
-        background-image: url(../images/pexels-iva1953-17502.jpg);}
-    
-main{color:cadetblue;}
+/* Main Styles */
+main {
+    color: cadetblue;
+}
+
+/* Footer Styles */
 footer {
     display: flex;
     justify-content: center; /* Center content horizontally */
@@ -149,4 +158,38 @@ footer {
     background-color: chocolate; /* Background color for visibility */
     color: white; /* Text color for contrast */
     margin-top: auto; /* Push the footer to the bottom */
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    header {
+        font-size: 200%;
+        padding-top: 7%;
+    }
+    
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: rgba(165, 15, 193, 0.5);
+        height: 100%;
+    }
+
+    ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+    
+    a {
+        color: white;
+    }
+
+    a:hover {
+        background-color: grey;
+        border-radius: 4px;
+        transition: background-color 0.15s; /* Add transition for smooth effect */
+    }
 }
