@@ -37,8 +37,16 @@ header {
 
 /* Spacing Divs */
 .div0 {
-    height: 30px;
+    
 }
+
+#hero { 
+    background-image: url(../images/home.jpg);
+    background-size:cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    border-style:dotted;
+    height:20rem;}
 
 /* Navigation Styles */
 nav {
@@ -84,13 +92,13 @@ a:hover {
 
 /* Section Background Images */
 .home, .contact, .aboutus, .decoration, .photography, .catering, .locations {
-    background-size: cover; /* Ensures the image covers the entire area */
+    background-size:contain; /* Ensures the image covers the entire area */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
 .home {
-    background-image: url(../images/home.jpg);
+  
 }
 
 .contact {
