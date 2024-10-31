@@ -47,7 +47,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    height: 60px;
+    height: 30px;
 }
 
 ul {
@@ -75,7 +75,7 @@ a:hover {
 }
 
 .div1 { 
-    margin-bottom: 10%;
+    margin-bottom: 0%;
     color:#A50FC1;}
 
 .div2 { 
