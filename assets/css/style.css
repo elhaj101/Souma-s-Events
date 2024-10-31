@@ -41,7 +41,8 @@ header {
 
 .divs { 
     border-style: dotted;
-    height: 30rem;}
+    height: 40rem;
+margin-top:2.5rem;}
 
     
 
@@ -51,7 +52,7 @@ header {
     background-size:cover; /* Ensures the image covers the entire area */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
-    height:20rem;}
+    height:40rem;}
 
 /* Navigation Styles */
 nav {
