@@ -90,37 +90,38 @@ a:hover {
 
 
 /* Section Background Images */
-.home, .contact, .aboutus, .decoration, .photography, .catering, .locations {
-    background-size:contain; /* Ensures the image covers the entire area */
+ #hero-contact, #hero-aboutus, #hero-decoration, #hero-photography, #hero-catering, #hero-locations {
+    background-size:cover; /* Ensures the image covers the entire area */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
+    height:20rem; /* height for all hero images except index.html */
 }
 
 
   
 
 
-.contact {
+#hero-contact {
     background-image: url(../images/contact.jpg);
 }
 
-.aboutus {
+#hero-aboutus {
     background-image: url(../images/pexels-bohlemedia-1196828.jpg);
 }
 
-.decoration {
+#hero-decoration {
     background-image: url(../images/deco.jpg);
 }
 
-.photography {
+#hero-photography {
     background-image: url(../images/photo.jpg);
 }
 
-.catering {
+#hero-catering {
     background-image: url(../images/pexels-orlovamaria-4916558.jpg);
 }
 
-.locations {
+#hero-locations {
     background-image: url(../images/pexels-iva1953-17502.jpg);
 }
 
