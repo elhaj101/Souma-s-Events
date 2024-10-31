@@ -133,15 +133,18 @@ main {
     flex-direction: column; /* Stack items vertically */
     font-size: 140%;
     background-image: linear-gradient(to left top, 
-        rgba(83, 50, 85, 0.8), 
-        rgba(118, 77, 121, 0.8), 
-        rgba(154, 106, 159, 0.8), 
-        rgba(193, 136, 199, 0.8), 
-        rgba(232, 167, 241, 0.8)
+        rgba(83, 50, 85, 0.7),  /* Slightly more transparent */
+        rgba(118, 77, 121, 0.7), 
+        rgba(154, 106, 159, 0.7), 
+        rgba(193, 136, 199, 0.7), 
+        rgba(232, 167, 241, 0.7)
     );
-    padding-top: 25%; /* Add padding for better spacing */
-  
+    padding: 20px; /* Add padding for better spacing */
+    max-height: 80vh; /* Limit the height of the main section */
+    overflow-y: auto; /* Allow scrolling if content exceeds */
+    margin-top: 40%; /* Optional: add some space above */
 }
+
 
 /* Footer Styles */
 footer {
