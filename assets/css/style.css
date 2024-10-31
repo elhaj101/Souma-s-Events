@@ -29,23 +29,22 @@ header {
     display: flex;
     justify-content: center;
     background-image: linear-gradient(to top, #051e37, #384163, #6d6691, #a88cbe, #e8b5e9);
-    height: 150px;
+    height: 7rem;
     color: #530861;
-    font-size: 50px;
+    font-size: 30px;
     font-family: oswald;
 }
 
 /* Spacing Divs */
-.div0 {
+
     
-}
+
 
 #hero { 
     background-image: url(../images/home.jpg);
     background-size:cover; /* Ensures the image covers the entire area */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
-    border-style:dotted;
     height:20rem;}
 
 /* Navigation Styles */
@@ -97,9 +96,9 @@ a:hover {
     background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
-.home {
+
   
-}
+
 
 .contact {
     background-image: url(../images/contact.jpg);
