@@ -74,7 +74,9 @@ a:hover {
     transition: background-color 0.15s; /* Add transition for smooth effect */
 }
 
-.div1 { color:#A50FC1;}
+.div1 { 
+    
+    color:#A50FC1;}
 
 .div2 { color:#530861;}
 
@@ -123,7 +125,7 @@ a:hover {
 
 /* Main Styles */
 main {
-    color: cadetblue;
+    padding-top:40%;
 }
 
 /* Footer Styles */
