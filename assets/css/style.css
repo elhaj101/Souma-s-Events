@@ -8,5 +8,68 @@ body {                  /* This is the second most generic element */
     display:flex;
     flex-direction: column;
     color: brown;
-    font-family:
+    font-family:;
+}
+
+/* Body class */
+.home {
+    /* Styles for body */
+}
+
+/* Navbar styles */
+.navbar {
+    /* Styles for navbar */
+}
+
+.navbar-menu {
+    /* Styles for navbar menu */
+}
+
+/* Main content */
+.main {
+    /* Styles for main content */
+}
+
+/* Div 1 styles */
+.div1 {
+    /* Styles for div1 */
+}
+
+.h1 {
+    /* Styles for h1 in div1 */
+}
+
+.p1 {
+    /* Styles for p1 in div1 */
+}
+
+/* Div 2 styles */
+.div2 {
+    /* Styles for div2 */
+}
+
+.h2 {
+    /* Styles for h2 in div2 */
+}
+
+.p2 {
+    /* Styles for p2 in div2 */
+}
+
+/* Div 3 styles */
+.div3 {
+    /* Styles for div3 */
+}
+
+.h3 {
+    /* Styles for h3 in div3 */
+}
+
+.p3 {
+    /* Styles for p3 in div3 */
+}
+
+/* Footer styles */
+.footer {
+    /* Styles for footer */
 }
