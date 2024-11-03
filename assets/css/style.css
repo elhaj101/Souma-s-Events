@@ -1,0 +1,12 @@
+* {                 /* The most generic style element and affetcs the whole file       */            
+    padding:0; 
+    margin:0;
+    box-sizing:border-box;
+}
+body {                  /* This is the second most generic element */
+    min-height: 100vh ; /*. this allows the body to stretch larger than the screen even when content is not enough       */
+    display:flex;
+    flex-direction: column;
+    color: brown;
+    font-family:
+}
