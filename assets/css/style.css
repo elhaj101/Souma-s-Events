@@ -8,7 +8,7 @@ body {                  /* This is the second most generic element */
     display:flex;
     flex-direction: column;
     color: brown;
-    font-family:;
+    
 }
 
 
@@ -23,6 +23,7 @@ body {                  /* This is the second most generic element */
 }
 
 .main {
+    height: 100rem;
     border: 1px dashed green; 
 }
 
@@ -64,4 +65,10 @@ body {                  /* This is the second most generic element */
 
 .footer {
     border: 1px dashed black; 
+}
+
+/* IDs */
+
+#hero { 
+    height: 35rem;
 }
