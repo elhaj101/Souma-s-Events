@@ -14,9 +14,10 @@ body {                  /* This is the second most generic element */
 
 /* Classes */
 
+li a {color:white;}
+
 .navbar-menu {
     list-style-type: none; /* Remove bullets */
-
     text-decoration: none;
     color: white; /* Set desired color for links */
 }
