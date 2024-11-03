@@ -19,7 +19,7 @@ body {                  /* This is the second most generic element */
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: blue;
+    background-color: white;
     align-items: center;
     height:80%;
     border-style: dashed;}
@@ -80,7 +80,8 @@ li a {color:white;}
 }
 
 .h1 {
-   
+    padding-top:5%;
+    height: 10%;
     border: 1px dashed purple; 
 }
 
