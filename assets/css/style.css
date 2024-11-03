@@ -73,6 +73,39 @@ body {                  /* This is the second most generic element */
 
 /* IDs */
 
-#hero { 
-    height: 35rem;
+
+/* Home Page */
+#hero-home {
+    height: 35rem; /* Set height to 35rem */
+    color: black; /* Text color */
+}
+
+/* Photography Page */
+#hero-photography {
+    height: 35rem; /* Set height to 35rem */
+    color: black; /* Text color */
+}
+
+/* Catering Page */
+#hero-catering {
+    height: 35rem; /* Set height to 35rem */
+    color: black; /* Text color */
+}
+
+/* Locations Page */
+#hero-locations {
+    height: 35rem; /* Set height to 35rem */
+    color: black; /* Text color */
+}
+
+/* Decoration Page */
+#hero-decoration {
+    height: 35rem; /* Set height to 35rem */
+    color: black; /* Text color */
+}
+
+/* Contact Us Page */
+#hero-contact {
+    height: 35rem; /* Set height to 35rem */
+    color: black; /* Text color */
 }
