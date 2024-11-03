@@ -28,6 +28,7 @@ body {                  /* This is the second most generic element */
 }
 
 .div1 {
+    height: 25rem;
     border: 1px dashed orange; 
 }
 
@@ -40,6 +41,7 @@ body {                  /* This is the second most generic element */
 }
 
 .div2 {
+    height: 25rem;
     border: 1px dashed teal; 
 }
 
@@ -52,6 +54,7 @@ body {                  /* This is the second most generic element */
 }
 
 .div3 {
+    height: 25rem;
     border: 1px dashed yellow; 
 }
 
@@ -64,6 +67,7 @@ body {                  /* This is the second most generic element */
 }
 
 .footer {
+    height: 10rem;
     border: 1px dashed black; 
 }
 
