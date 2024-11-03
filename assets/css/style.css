@@ -12,55 +12,56 @@ body {                  /* This is the second most generic element */
 }
 
 
-/* Navbar styles */
+/* Classes */
+
 .navbar {
-    /* Styles for navbar */
+    border: 1px dashed red; 
 }
 
 .navbar-menu {
-    /* Styles for navbar menu */
+    border: 1px dashed blue; 
 }
 
 .main {
-    /* Styles for main content */
+    border: 1px dashed green; 
 }
 
 .div1 {
-    /* Styles for div1 */
+    border: 1px dashed orange; 
 }
 
 .h1 {
-    /* Styles for h1 in div1 */
+    border: 1px dashed purple; 
 }
 
 .p1 {
-    /* Styles for p1 in div1 */
+    border: 1px dashed pink; 
 }
 
 .div2 {
-    /* Styles for div2 */
+    border: 1px dashed teal; 
 }
 
 .h2 {
-    /* Styles for h2 in div2 */
+    border: 1px dashed brown; 
 }
 
 .p2 {
-    /* Styles for p2 in div2 */
+    border: 1px dashed navy; 
 }
 
 .div3 {
-    /* Styles for div3 */
+    border: 1px dashed yellow; 
 }
 
 .h3 {
-    /* Styles for h3 in div3 */
+    border: 1px dashed gray; 
 }
 
 .p3 {
-    /* Styles for p3 in div3 */
+    border: 1px dashed olive; 
 }
 
 .footer {
-    /* Styles for footer */
+    border: 1px dashed black; 
 }
