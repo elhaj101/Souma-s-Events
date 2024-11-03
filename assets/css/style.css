@@ -21,6 +21,7 @@ body {                  /* This is the second most generic element */
     width: 100%;
     background-color: white;
     align-items: center;
+    text-align: center;
     height:80%;
     border-style: dashed;}
 
