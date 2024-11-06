@@ -79,15 +79,16 @@ li a {color:white;}
 }
 
 .div1 {
+    padding-top: 5%;
     justify-items: center;
     height: 25rem;
     border: 1px dashed orange; 
 }
 
 .h1 {
-    padding-top:5%;
-    height: 10%;
-    border: 1px dashed purple; 
+    
+   
+    border: 1px dashed rgb(49, 0, 128); 
 }
 
 .p1 {
