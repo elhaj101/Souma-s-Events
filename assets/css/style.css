@@ -79,7 +79,7 @@ li a {color:white;}
 }
 
 .div1 {
-    padding-top: 5%;
+    padding-top: 8%;
     justify-items: center;
     height: 25rem;
     border: 1px dashed orange; 
@@ -96,6 +96,7 @@ li a {color:white;}
 }
 
 .div2 {
+    padding-top: 10%;
     height: 25rem;
     border: 1px dashed teal; 
 }
@@ -109,6 +110,7 @@ li a {color:white;}
 }
 
 .div3 {
+    padding-top: 15%;
     height: 25rem;
     border: 1px dashed yellow; 
 }
@@ -122,6 +124,7 @@ li a {color:white;}
 }
 
 .footer {
+    padding-top: 30%;
     height: 10rem;
     border: 1px dashed black; 
 }
