@@ -76,6 +76,7 @@ li a {color:white;}
 .main {
     height: 100rem;
     border: 1px dashed green; 
+    margin-bottom: 10%;
 }
 
 .div1 {
@@ -124,7 +125,8 @@ li a {color:white;}
 }
 
 .footer {
-    padding-top: 30%;
+    
+    padding-top: 5%;
     height: 10rem;
     border: 1px dashed black; 
 }
