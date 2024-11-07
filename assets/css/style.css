@@ -22,7 +22,10 @@ body {                  /* This is the second most generic element */
     background-color: white;
     align-items: center;
     text-align: center;
-    height:80%;}
+    height:80%;
+    padding:2%;
+
+}
   
 .g-col-6 {
    
