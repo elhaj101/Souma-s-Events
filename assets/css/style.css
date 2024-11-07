@@ -22,15 +22,14 @@ body {                  /* This is the second most generic element */
     background-color: white;
     align-items: center;
     text-align: center;
-    height:80%;
-    border-style: dashed;}
-
+    height:80%;}
+  
 .g-col-6 {
    
     align-items: center;
     height:70%;
     width:100%;
-    border-style: dotted;}
+}
 
     .col-4 { 
         font-weight: 700;
@@ -64,18 +63,18 @@ li a {color:white;}
 
 
 .navbar {
-    border: 1px dashed red; 
+  
 }
 
 .navbar-menu {
     font-size: 150%;
-    border: 1px dashed white; 
+  
    
 }
 
 .main {
     height: 100rem;
-    border: 1px dashed green; 
+    
     margin-bottom: 10%;
 }
 
@@ -83,52 +82,51 @@ li a {color:white;}
     padding-top: 8%;
     justify-items: center;
     height: 25rem;
-    border: 1px dashed orange; 
+   
 }
 
 .h1 {
     
    
-    border: 1px dashed rgb(49, 0, 128); 
+  
 }
 
 .p1 {
-    border: 1px dashed pink; 
+   
 }
 
 .div2 {
     padding-top: 10%;
     height: 25rem;
-    border: 1px dashed teal; 
+   
 }
 
 .h2 {
-    border: 1px dashed brown; 
+   
 }
 
 .p2 {
-    border: 1px dashed navy; 
+  
 }
 
 .div3 {
     padding-top: 15%;
     height: 25rem;
-    border: 1px dashed yellow; 
+ 
 }
 
-.h3 {
-    border: 1px dashed gray; 
-}
+.h3 {}
+  
 
 .p3 {
-    border: 1px dashed olive; 
+   
 }
 
 .footer {
     
     padding-top: 5%;
     height: 10rem;
-    border: 1px dashed black; 
+   
 }
 
 /* IDs */
