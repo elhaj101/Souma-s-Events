@@ -14,6 +14,12 @@ body {                  /* This is the second most generic element */
 
 /* Classes */
 
+.divex{ 
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+border-style: dotted;}
+
 .icon {
     width: 40px; /* Adjust size as needed */
     height: 40px; /* Maintain aspect ratio */
@@ -89,9 +95,10 @@ li a {color:white;}
 }
 
 .div1 {
+    border-style: double;
     padding-top: 8%;
     justify-items: center;
-    height: 25rem;
+    height: 20rem;
    
 }
 
