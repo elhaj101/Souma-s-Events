@@ -13,15 +13,7 @@ body {
 }
 
 /* Classes */
-.embed-responsive{
-    width:5rem;
-    height: auto; 
-    min-height: 125px ;}
-.custom-image {
-    max-width: 100%; /* Ensure it doesn't exceed the width of its container */
-    height: auto; /* Maintain aspect ratio */
-    max-height: 250px; /* Adjust the maximum height as needed */
-}
+
 
 .marketing-container {
     display: flex;
