@@ -9,11 +9,10 @@ body {
     display: flex;
     flex-direction: column;
     color: brown;
+    text-align: center; /* Center-align all text in the body */
 }
 
 /* Classes */
-
-
 
 .divex {
     display: flex;
@@ -34,7 +33,7 @@ body {
     width: 100%;
     background-color: white;
     align-items: center;
-    text-align: center;
+    text-align: center; /* Ensure text is centered */
     height: 80%;
     padding: 2%;
 }
@@ -49,6 +48,7 @@ body {
     font-weight: 700;
     font-size: 15px;
     padding-top: 2%;
+    text-align: center; /* Center-align text in columns */
 }
 
 .carousel-item {
@@ -71,10 +71,11 @@ li a {
     text-decoration: none;
     color: white; 
     font-size: 150%;
+    text-align: center; /* Center-align navbar items */
 }
 
 .main {
-    height: 100rem; 
+    flex: 1; /* Allow main to grow and push footer down */
     margin-bottom: 10%;
     padding: 20px; /* Combined padding into the main class */
 }
@@ -90,50 +91,19 @@ li a {
 }
 
 .footer {
-    padding-top: 5%;
-    height: 10rem;
+    background-color: #343a40; /* Dark background for footer */
+    color: white; /* Light text color */
+    text-align: center; /* Center text */
+    padding: 20px 0; /* Padding for footer */
+    position: relative; /* Keep in flow of document */
 }
 
 /* IDs */
 
 #grid {
-    
-    background-image: linear-gradient(to bottom, #f8f8f8, #e5e8f4, #cadaf0, #a8cfea, #7fc4df);}
-
-/* Home Page */
-#hero-home {
-    height: 30rem; 
-    color: black; 
-}
-
-/* Photography Page */
-#hero-photography {
-    height: 30rem; 
-    color: black; 
-}
-
-/* Catering Page */
-#hero-catering {
-    height: 30rem; 
-    color: black; 
-}
-
-/* Locations Page */
-#hero-locations {
-    height: 30rem; 
-    color: black; 
-}
-
-/* Decoration Page */
-#hero-decoration {
-    height: 30rem; 
-    color: black; 
-}
-
-/* Contact Us Page */
-#hero-contact {
-    height: 30rem; 
-    color: black; 
+    background-image: linear-gradient(to bottom, #f8f8f8, #e5e8f4, #cadaf0, #a8cfea, #7fc4df);
+    width: 100%; /* Full width for grid */
+    padding: 20px 0; /* Add padding to grid */
 }
 
 /* Carousel Specific Adjustments */
@@ -161,4 +131,29 @@ li a {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
     margin-bottom: 30px; /* Space between columns */
+    text-align: center; /* Center-align text in columns */
+}
+
+.div3 {
+    padding-top: 15%;
+    height: 25rem;
+    display: flex; /* Use flexbox to center content */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+}
+
+.btn-primary {
+    margin-top: 20px; /* Space above the button */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Font size */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
 }
