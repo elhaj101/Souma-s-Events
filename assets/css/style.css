@@ -50,7 +50,7 @@ body {
 }
 
 .carousel-item {
-    height: 500px; 
+    height: 500px; /* Consistent height for carousel items */
     overflow: hidden; 
 }
 
@@ -130,15 +130,13 @@ li a {
     color: black; 
 }
 
-/* Additional styles for carousel and layout */
-.carousel-inner {
-    display: flex;
-    align-items: center; /* Center items vertically */
-    justify-content: center; /* Center items horizontally */
-}
-
+/* Carousel Specific Adjustments */
 .carousel-caption {
     text-align: center; /* Center-align text in the caption */
+    position: absolute; /* Ensure captions are positioned correctly */
+    bottom: 20px; /* Adjust vertical position if needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for true centering */
 }
 
 .marketing-container {
