@@ -14,6 +14,42 @@ body {
 
 /* Classes */
 
+
+.marketing-container {
+    display: flex;
+    justify-content: center; /* Center the columns */
+    flex-wrap: wrap; /* Allow wrapping of columns */
+}
+
+.row {
+    display: flex; /* Use flexbox for row */
+    justify-content: center; /* Center the columns */
+}
+
+.col-lg-4 {
+    display: flex; /* Use flexbox for each column */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    margin-bottom: 30px; /* Space between columns */
+    text-align: center; /* Center-align text in columns */
+}
+
+/* Button Styles */
+.btn-primary {
+    margin-top: 20px; /* Space above the button */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Font size */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
 .divex {
     display: flex;
     flex-direction: row;
@@ -107,6 +143,7 @@ li a {
 
 /* Carousel Specific Adjustments */
 .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Black background with some transparency 
     text-align: center; /* Center-align text in the caption */
     position: absolute; /* Ensure captions are positioned correctly */
     bottom: 20px; /* Adjust vertical position if needed */
@@ -118,7 +155,7 @@ li a {
 
 .carousel-caption h1 {
     text-align: center;
-    font-size: 2.5rem; /* Adjust font size for better visibility on smaller screens */
+    font-size: 2.0rem; /* Adjust font size for better visibility on smaller screens */
 }
 
 .carousel-caption p {
@@ -131,49 +168,15 @@ li a {
     .carousel-caption h1 {
         margin-left:5.5rem;
         
-        font-size: 2rem; /* Reduce font size on smaller screens */
+        font-size: 1rem; /* Reduce font size on smaller screens */
     }
 
     .carousel-caption p {
         margin-left:8rem;
         text-align: right;
-        font-size: 1rem; /* Reduce font size on smaller screens */
+        font-size: 0.5rem; /* Reduce font size on smaller screens */
     }
 
-   
 }
 
-.marketing-container {
-    display: flex;
-    justify-content: center; /* Center the columns */
-    flex-wrap: wrap; /* Allow wrapping of columns */
-}
 
-.row {
-    display: flex; /* Use flexbox for row */
-    justify-content: center; /* Center the columns */
-}
-
-.col-lg-4 {
-    display: flex; /* Use flexbox for each column */
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    margin-bottom: 30px; /* Space between columns */
-    text-align: center; /* Center-align text in columns */
-}
-
-/* Button Styles */
-.btn-primary {
-    margin-top: 20px; /* Space above the button */
-    background-color: #007bff; /* Bootstrap primary color */
-    color: white; /* Button text color */
-    padding: 10px 20px; /* Padding for the button */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Rounded corners */
-    text-decoration: none; /* Remove underline */
-    font-size: 16px; /* Font size */
-}
-
-.btn-primary:hover {
-    background-color: #0056b3; /* Darker shade on hover */
-}
