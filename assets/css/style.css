@@ -13,6 +13,8 @@ body {
 
 /* Classes */
 
+
+
 .divex {
     display: flex;
     flex-direction: row;
@@ -93,6 +95,10 @@ li a {
 }
 
 /* IDs */
+
+#grid {
+    
+    background-image: linear-gradient(to bottom, #f8f8f8, #e5e8f4, #cadaf0, #a8cfea, #7fc4df);}
 
 /* Home Page */
 #hero-home {
