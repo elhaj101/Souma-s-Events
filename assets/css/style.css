@@ -18,7 +18,7 @@ body {                  /* This is the second most generic element */
     display: flex;
     flex-direction: row;
     height: 5rem;
-border-style: dotted;}
+}
 
 .icon {
     width: 40px; /* Adjust size as needed */
@@ -95,10 +95,10 @@ li a {color:white;}
 }
 
 .div1 {
-    border-style: double;
+    
     padding-top: 8%;
     justify-items: center;
-    height: 20rem;
+    height: 14rem;
    
 }
 
