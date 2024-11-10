@@ -13,7 +13,16 @@ body {
 }
 
 /* Classes */
-
+.embed-responsive{
+    
+   
+    height: auto;
+    min-height: 125px ;}
+.custom-image {
+    max-width: 100%; /* Ensure it doesn't exceed the width of its container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 250px; /* Adjust the maximum height as needed */
+}
 
 .marketing-container {
     display: flex;
@@ -134,6 +143,7 @@ li a {
 }
 
 /* IDs */
+
 
 #grid {
     background-image: linear-gradient(to bottom, #f8f8f8, #e5e8f4, #cadaf0, #a8cfea, #7fc4df);
