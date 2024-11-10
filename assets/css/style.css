@@ -74,6 +74,7 @@ li a {
 .main {
     height: 100rem; 
     margin-bottom: 10%;
+    padding: 20px; /* Combined padding into the main class */
 }
 
 .div2 {
@@ -127,4 +128,33 @@ li a {
 #hero-contact {
     height: 30rem; 
     color: black; 
+}
+
+/* Additional styles for carousel and layout */
+.carousel-inner {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+}
+
+.carousel-caption {
+    text-align: center; /* Center-align text in the caption */
+}
+
+.marketing-container {
+    display: flex;
+    justify-content: center; /* Center the columns */
+    flex-wrap: wrap; /* Allow wrapping of columns */
+}
+
+.row {
+    display: flex; /* Use flexbox for row */
+    justify-content: center; /* Center the columns */
+}
+
+.col-lg-4 {
+    display: flex; /* Use flexbox for each column */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    margin-bottom: 30px; /* Space between columns */
 }
