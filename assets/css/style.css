@@ -1,181 +1,130 @@
-* {                 /* The most generic style element and affetcs the whole file       */            
-    padding:0; 
-    margin:0;
-    box-sizing:border-box;
-}
-body {                  /* This is the second most generic element */
-    min-height: 100vh ; /*. this allows the body to stretch larger than the screen even when content is not enough       */
-    display:flex;
-    flex-direction: column;
-    color: brown;
-    
+* {
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: brown;
+}
 
 /* Classes */
 
-.justify-content-start { padding-left:25%;}
-
-
-.divex{ 
+.divex {
     display: flex;
     flex-direction: row;
     height: 5rem;
 }
 
 .icon {
-    width: 40px; /* Adjust size as needed */
-    height: 40px; /* Maintain aspect ratio */
-    display: block; /* Display as block to stack under text */
-    margin: 10px auto; /* Center the icon and add some space above/below */
+    width: 40px; 
+    height: 40px; 
+    display: block; 
+    margin: 10px auto; 
 }
 
 .grid-text-center {
-
     display: flex;
     flex-direction: row;
     width: 100%;
     background-color: white;
     align-items: center;
     text-align: center;
-    height:80%;
-    padding:2%;
-
+    height: 80%;
+    padding: 2%;
 }
-  
+
 .g-col-6 {
-   
     align-items: center;
-    height:70%;
-    width:100%;
+    height: 70%;
+    width: 100%;
 }
 
-    .col-4 { 
-        font-weight: 700;
-        font-size: 15px;
-        padding-top:2%;}
-            
-
-
+.col-4 { 
+    font-weight: 700;
+    font-size: 15px;
+    padding-top: 2%;
+}
 
 .carousel-item {
-    height: 500px; /* Set a fixed height for the carousel */
-    overflow: hidden; /* Hide overflow in case of larger images */
+    height: 500px; 
+    overflow: hidden; 
 }
 
 .carousel-item img {
-    height: 100%; /* Ensure the image takes the full height */
-    object-fit: cover; /* Cover the area without distortion */
-    width: 100%; /* Ensure the image takes the full width */
+    height: 100%; 
+    object-fit: cover; 
+    width: 100%; 
 }
 
-li a {color:white;}
-
-
+li a {
+    color: white;
+}
 
 .navbar-menu {
-    list-style-type: none; /* Remove bullets */
+    list-style-type: none; 
     text-decoration: none;
-    color: white; /* Set desired color for links */
-}
-
-
-
-
-
-.navbar-menu {
+    color: white; 
     font-size: 150%;
-  
-   
 }
 
 .main {
-    height: 100rem;
-    
+    height: 100rem; 
     margin-bottom: 10%;
-}
-
-
-
-.h1 {
-    
-   
-  
-}
-
-.p1 {
-   
 }
 
 .div2 {
     padding-top: 10%;
     height: 25rem;
-   
-}
-
-.h2 {
-   
-}
-
-.p2 {
-  
 }
 
 .div3 {
     padding-top: 15%;
     height: 25rem;
- 
-}
-
-.h3 {}
-  
-
-.p3 {
-   
 }
 
 .footer {
-    
     padding-top: 5%;
     height: 10rem;
-   
 }
 
 /* IDs */
 
-
 /* Home Page */
 #hero-home {
-    height: 30rem; /* Set height to 35rem */
-    color: black; /* Text color */
+    height: 30rem; 
+    color: black; 
 }
 
 /* Photography Page */
 #hero-photography {
-    height: 30rem; /* Set height to 35rem */
-    color: black; /* Text color */
+    height: 30rem; 
+    color: black; 
 }
 
 /* Catering Page */
 #hero-catering {
-    height: 30rem; /* Set height to 35rem */
-    color: black; /* Text color */
+    height: 30rem; 
+    color: black; 
 }
 
 /* Locations Page */
 #hero-locations {
-    height: 30rem; /* Set height to 35rem */
-    color: black; /* Text color */
+    height: 30rem; 
+    color: black; 
 }
 
 /* Decoration Page */
 #hero-decoration {
-    height: 30rem; /* Set height to 35rem */
-    color: black; /* Text color */
+    height: 30rem; 
+    color: black; 
 }
 
 /* Contact Us Page */
 #hero-contact {
-    height: 30rem; /* Set height to 35rem */
-    color: black; /* Text color */
+    height: 30rem; 
+    color: black; 
 }
