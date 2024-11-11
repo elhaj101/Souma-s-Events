@@ -36,12 +36,33 @@
   </div>
 </nav>
 
-         <main>
-            <div id="hero-contact"> hero </div>
-            
-            
-            </main>
-            
+<main>
+    <div id="hero-contact"> hero </div>
+
+    <div class="contact-form-container" style="max-width: 600px; margin: 0 auto; padding: 20px;">
+        <h2 class="h3">Provide Us with More Information About Your Event</h2>
+        <form>
+            <div style="margin-bottom: 15px;">
+                <label for="name" style="display: block; margin-bottom: 5px;">Name</label>
+                <input type="text" id="name" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="email" style="display: block; margin-bottom: 5px;">Email</label>
+                <input type="email" id="email" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="city" style="display: block; margin-bottom: 5px;">City</label>
+                <input type="text" id="city" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="eventDetails" style="display: block; margin-bottom: 5px;">Event Details (minimum 100 words)</label>
+                <textarea id="eventDetails" rows="5" required minlength="100" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+                <small style="display: block; margin-top: 5px; color: #666;">Please provide at least 100 words about your event.</small>
+            </div>
+            <button type="submit" style="background-color: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">Get an Offer</button>
+        </form>
+    </div>
+</main>
             
             <footer class="footer bg-dark text-white text-center py-4">
                 <div class="container">
