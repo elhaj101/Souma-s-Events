@@ -14,6 +14,17 @@ body {
 
 /* Classes */
 
+#hero-contact {
+    background-image: url('../images/contact.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the image */
+    height: 400px; /* Set a height for the div */
+    display: flex; /* Optional: To center content inside */
+    align-items: center; /* Optional: Center vertically */
+    justify-content: center; /* Optional: Center horizontally */
+    color: white; /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: Add text shadow for better readability */
+} 
 
 .marketing-container {
     display: flex;
