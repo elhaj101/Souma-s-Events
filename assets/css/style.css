@@ -14,6 +14,23 @@ body {
 
 /* Classes */
 
+services, .team {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile h3 {
+    color: #343a40;
+}
+
+
 p a {text-decoration: none;}
 
 .divcontact {text-align: center;
@@ -79,6 +96,17 @@ small {
 }
 
 #hero-contact {
+    background-image: url('../images/contact.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the image */
+    height: 400px; /* Set a height for the div */
+    display: flex; /* Optional: To center content inside */
+    align-items: center; /* Optional: Center vertically */
+    justify-content: center; /* Optional: Center horizontally */
+    color: white; /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: Add text shadow for better readability */
+} 
+#hero-aboutus {
     background-image: url('../images/contact.jpg'); /* Replace with your image path */
     background-size: cover; /* Cover the entire div */
     background-position: center; /* Center the image */
@@ -217,6 +245,8 @@ li a {
 }
 
 /* IDs */
+
+
 
 
 #grid {
