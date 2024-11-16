@@ -14,6 +14,8 @@ body {
 
 /* Classes */
 
+
+
 services, .team {
     margin: 20px;
     padding: 20px;
@@ -294,3 +296,37 @@ li a {
 }
 
 
+/* Media Query for Medium and Large Screens */
+@media (min-width: 768px) {
+    .navbar-toggler {
+        display: none; /* Hide the hamburger menu */
+    }
+
+    .navbar-collapse {
+        display: flex !important; /* Ensure the menu is displayed as a flex container */
+        justify-content: center; /* Center the menu items */
+        align-items: center; /* Vertically center the items */
+    }
+
+    .navbar-menu {
+        display: flex; /* Ensure that the menu items are flex items */
+        flex-direction: row; /* Arrange the menu items in a row */
+        padding: 0; /* Remove any default padding */
+        margin: 0; /* Remove any default margin */
+        list-style: none; /* Remove bullet points */
+    }
+
+    .navbar-menu li {
+        margin: 0 15px; /* Add some spacing between menu items */
+    }
+
+    .navbar-menu a {
+        color: white; /* Ensure text color is white for visibility */
+        text-decoration: none; /* Remove underline from links */
+        padding: 10px; /* Add padding for better click area */
+    }
+
+    .navbar-menu a:hover {
+        text-decoration: underline; /* Optional: underline on hover */
+    }
+}
