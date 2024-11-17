@@ -305,7 +305,8 @@ li a {
 
 
 #grid {
-    background-image: linear-gradient(to bottom, #f8f8f8, #e5e8f4, #cadaf0, #a8cfea, #7fc4df);
+    border-style: groove;
+    
     width: 100%; /* Full width for grid */
     padding: 20px 0; /* Add padding to grid */
 }
