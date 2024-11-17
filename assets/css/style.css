@@ -68,23 +68,10 @@ body {
     }
 }
 
-.container1 {
-    background-color: rgba(14, 63, 224, 0.649); /* White background for the container */
-    color: rgb(246, 242, 240);
-    margin-top:5rem;
-    padding-bottom: 40px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
 
 
-services, .team {
-    margin: 20px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
+
+
 
 .profile {
     margin-bottom: 20px;
@@ -171,7 +158,7 @@ small {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: Add text shadow for better readability */
 } 
 #hero-aboutus {
-    background-image: url('../images/contact.jpg'); /* Replace with your image path */
+    background-image: url('../images/potsdamer.jpg'); /* Replace with your image path */
     background-size: cover; /* Cover the entire div */
     background-position: center; /* Center the image */
     height: 400px; /* Set a height for the div */
@@ -217,11 +204,7 @@ small {
     background-color: #0056b3; /* Darker shade on hover */
 }
 
-.divex {
-    display: flex;
-    flex-direction: row;
-    height: 5rem;
-}
+
 
 .icon {
     width: 40px; 
