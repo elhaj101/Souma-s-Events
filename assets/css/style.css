@@ -14,7 +14,23 @@ body {
 
 /* Classes */
 
+.card img[alt="halloween"] {
+    height: 165px; /* Set your desired height */
+    object-fit: cover; /* Optional for better image fitting */
+}
 
+.card img[alt="table 2"] {
+    height: 165px; /* Set your desired height */
+    object-fit: cover; /* Optional for better image fitting */
+}
+
+@media (min-width: 768px) { /* Medium screens and larger */
+    .card img[alt="halloween"],
+    .card img[alt="table 2"] {
+        height: 280px; /* Set height to 280px */
+        object-fit: cover; /* Maintain aspect ratio */
+    }
+}
 
 .container1 {
     background-color: rgba(14, 63, 224, 0.649); /* White background for the container */
