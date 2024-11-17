@@ -14,6 +14,42 @@ body {
 
 /* Classes */
 
+/* classes for cards in the Locations page */
+.card img[alt="tower"] {
+    height: 250px; /* Set your desired height */
+    object-fit: cover; /* Optional for better image fitting */
+}
+
+
+.card img[alt="parking"] {
+    height: 250px; /* Set your desired height */
+    object-fit: cover; /* Optional for better image fitting */
+}
+
+.card img[alt="berlin"] {
+    height: 250px; /* Set your desired height */
+    object-fit: cover; /* Optional for better image fitting */
+}
+
+.card img[alt="offices"] {
+    height: 250px; /* Set your desired height */
+    object-fit: cover; /* Optional for better image fitting */
+}
+
+.card img[alt="modern"] {
+    height: 250px; /* Set your desired height */
+    object-fit: cover; /* Optional for better image fitting */
+}
+
+.card img[alt="Potsdamer platz"] {
+    height: 250px; /* Set your desired height */
+    object-fit: cover; /* Optional for better image fitting */
+}
+
+
+/* classes for cards in the photography page */
+
+
 .card img[alt="halloween"] {
     height: 165px; /* Set your desired height */
     object-fit: cover; /* Optional for better image fitting */
@@ -124,7 +160,7 @@ small {
 }
 
 #hero-contact {
-    background-image: url('../images/contact.jpg'); /* Replace with your image path */
+    background-image: url('../images/potsdamer.jpg'); /* Replace with your image path */
     background-size: cover; /* Cover the entire div */
     background-position: center; /* Center the image */
     height: 400px; /* Set a height for the div */
