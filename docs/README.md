@@ -60,6 +60,8 @@ The target audience includes individuals and organizations looking to plan event
 - **Main Content**:
   - **Meet Our Team**: 
     - **Anna Schmidt**, Event Planning Manager: With over 8 years of experience, Anna ensures every detail is perfect.
+    - **Markus Müller**,Markus brings culinary expertise to the table with over 10 years in the catering industry. He specializes in curating menus that delight every palate.
+    - **Julia Fischer**,With a keen eye for detail, Julia captures the essence of every event. Her experience ensures that your memories are preserved beautifully.
   
 
 ### 7. Thank You
@@ -83,7 +85,8 @@ The target audience includes individuals and organizations looking to plan event
   - Contact information, including address and multiple email contacts for inquiries.
   - Social media links (Facebook, Twitter, Instagram, LinkedIn).
   - Legal notices and copyright information.
-- **Carousel**: Showcases different services with images and descriptions.
+- **Carousel**: Showcases different services with images and descriptions and buttons which take the user directly to the relevant page.
+- **Marketing grid**: Takes the user to relevant pages within the website when clicking on the interactive button links..
 - **Event Categories**: Lists various event types such as:
   - Weddings
   - Baby Showers
@@ -92,7 +95,7 @@ The target audience includes individuals and organizations looking to plan event
   - Engagements
   - Corporate Events
 - **Video Embed**: Displays a video showcasing events organized by Souma's Events.
-- **Contact Form**: The Contact page includes a form where clients can fill out their details to apply for an offer, fulfilling the website's goal.
+- **Contact Form**: The Contact page includes a form where clients can fill out their details to apply for an offer, fulfilling the website's goal it contains inputs like name, email, subject and description.
 
 ## Manual Testing
 
