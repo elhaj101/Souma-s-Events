@@ -95,8 +95,25 @@ The target audience includes individuals and organizations looking to plan event
   - Contact information, including address and multiple email contacts for inquiries.
   - Social media links (Facebook, Twitter, Instagram, LinkedIn).
   - Legal notices and copyright information.
-- **Carousel**: Showcases different services with images and descriptions and buttons which take the user directly to the relevant page.
+  - Validation certificates from "W3C "
+
+  ![desktop navbar](/assets/images/footerread.png)
+
+  
+- **Carousel**: Automated using a Javascript, this carousel showcases different services with images and descriptions and buttons which take the user directly to the relevant page.
+
+1/2 (smaller screen)
+
+
+![desktop navbar](/assets/images/rescarousel.png)
+
+2/2 (larger screen)
+
+![desktop navbar](/assets/images/carousel.png)
+
 - **Marketing grid**: Takes the user to relevant pages within the website when clicking on the interactive button links..
+
+![desktop navbar](/assets/images/marketing-grid.jpg)
 - **Event Categories**: Lists various event types such as:
   - Weddings
   - Baby Showers
