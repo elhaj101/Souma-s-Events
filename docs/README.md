@@ -147,8 +147,52 @@ The target audience includes individuals and organizations looking to plan event
 - All media files were taken from [pexels.com].
 - The carousel and album templates were taken from [Bootstrap].
 
-## Manual Testing
-*(Leave this section blank for now; add testing details later)*
+### 1. Steps Taken to Manually Test
+- Open the website in various browsers (Chrome, Firefox, Safari) and devices (desktop, tablet, mobile).
+- Navigate through all pages using the navbar and ensure all links work.
+- Test the carousel functionality for smooth transitions and responsiveness.
+- Fill out the contact form with valid and invalid data to test validation.
+
+### 2. Functionality Testing Results
+
+| Functionality                                      | Page          | Does it work as intended? |
+|---------------------------------------------------|---------------|---------------------------|
+| Carousel transitions and links                     | Index         | ✓ Yes                     |
+| Links to other pages (Photography, Catering, etc.)| Index         | ✓ Yes                     |
+| Display of event venues and details                | Locations     | ✓ Yes                     |
+| Contact information and inquiry button             | Locations     | ✓ Yes                     |
+| Image gallery showcasing photography services      | Photography   | ✓ Yes                     |
+| Call to action button linking to contact page      | Photography   | ✓ Yes                     |
+| Overview of catering services                       | Catering      | ✓ Yes                     |
+| Links for inquiries and details                     | Catering      | ✓ Yes                     |
+| Functional contact form with validation            | Contact       | ✓ Yes                     |
+| Submission confirmation and redirection            | Contact       | ✓ Yes                     |
+| Team information and expertise                      | About Us      | ✓ Yes                     |
+| Clear mission and vision statement                  | About Us      | ✓ Yes                     |
+| Thank you message upon form submission             | Thank You     | ✓ Yes                     |
+| Confirmation of request processing                  | Thank You     | ✓ Yes                     |
+| Responsive design across all devices                | All pages     | ✓ Yes                     |
+
+### 3. Lighthouse Performance Audit
+- Run a Lighthouse audit in Chrome DevTools to assess performance, accessibility, best practices, and SEO.
+- Review scores and recommendations for improvements.
+
+### 4. W3C HTML and CSS Validation
+- Use the [W3C Markup Validation Service] to check HTML.
+
+![aboutus validation](/assets/images/aboutus.png)  
+![catering validation](/assets/images/catering.png)
+![index validation](/assets/images/index.png)
+![locations](/assets/images/locations.png)
+![photography validation](/assets/images/photog.png)
+![thankyou validation](/assets/images/thankyou.png)
+![contact validation](/assets/images/contact.png)
+
+
+- Validate CSS using the [W3C CSS Validation Service].
+
+![w3c](/assets/images/w3c-css-validation.png)  
+
 
 ## Deployment
 
