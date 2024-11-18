@@ -33,14 +33,14 @@ The target audience includes individuals and organizations looking to plan event
 - **User Interaction**: Visitors can navigate to other sections of the website from the homepage using a responsive navbar.
 - **Main Content**:
   - A carousel featuring images and descriptions of services.
-- **Placeholder Image**: ![Index Page Placeholder](/assets/images/indexread.png)
+- **Placeholder Image**: ![Index Page ](/assets/images/indexread.png)
 
 ### 2. Locations
 - **Description**: This page features a selection of event venues available for rent, providing an inviting overview with images.
 - **User Interaction**: Users can view different venues and are encouraged to contact the company for more information.
 - **Main Content**:
   - An introductory section with a heading and description.
-- **Placeholder Image**: ![Locations Page Placeholder](/assets/images/locationsread.png)
+- **Placeholder Image**: ![Locations Page ](/assets/images/locationsread.png)
 
 ### 3. Photography
 - **Description**: This page showcases the photography services offered by Souma's Events, highlighting a collection of stunning images from various events like weddings, parties, and corporate gatherings.
@@ -50,12 +50,12 @@ The target audience includes individuals and organizations looking to plan event
     - Title: "Capturing Moments That Matter"
     - Description: A brief welcome message highlighting the purpose of the gallery.
     - Call to Action: A button linking to the contact page.
-- **Placeholder Image**: ![Photography Page Placeholder](/assets/images/photographyread.png)
+- **Placeholder Image**: ![Photography Page ](/assets/images/photographyread.png)
 
 ### 4. Catering
 - **Description**: This page provides information about catering options available for events. It includes an overview of services but does not display specific pricing.
 - **User Interaction**: Users can learn about catering services and make inquiries through the contact form on the website.
-- **Placeholder Image**: ![Catering Page Placeholder](/assets/images/cateringread.png)
+- **Placeholder Image**: ![Catering Page ](/assets/images/cateringread.png)
 
 ### 5. Contact
 - **Description**: A contact page that allows potential clients to reach out to Souma's Events for inquiries or bookings.
@@ -63,7 +63,7 @@ The target audience includes individuals and organizations looking to plan event
 - **Main Content**:
   - **Contact Form**: Users can provide their name, email, city, and select a subject related to their inquiry.
   - **Submission Confirmation**: Upon submission, users are directed to a thank you page.
-- **Placeholder Image**: ![Contact Page Placeholder](/assets/images/contactreadd.png)
+- **Placeholder Image**: ![Contact Page ](/assets/images/contactreadd.png)
 
 ### 6. About Us
 - **Description**: This page details the mission, vision, and background of Souma's Events, introducing the team and their expertise.
@@ -73,7 +73,7 @@ The target audience includes individuals and organizations looking to plan event
     - **Anna Schmidt**, Event Planning Manager: With over 8 years of experience, Anna ensures every detail is perfect.
     - **Markus Müller**, Culinary Expert: With over 10 years in the catering industry, Markus specializes in curating menus that delight every palate.
     - **Julia Fischer**, Photographer: With a keen eye for detail, Julia captures the essence of every event, ensuring that memories are preserved beautifully.
-- **Placeholder Image**: ![About Us Page Placeholder](https://via.placeholder.com/600x400?text=About+Us+Page)
+- **Placeholder Image**: ![About Us Page ](/assets/images/aboutusread.png)
 
 ### 7. Thank You
 - **Description**: The Thank You page serves as a confirmation that a user's inquiry or booking request has been successfully submitted.
@@ -83,7 +83,7 @@ The target audience includes individuals and organizations looking to plan event
 - **Main Content**:
   - A welcoming message thanking the user for their inquiry.
   - Information indicating that the team will review the request and follow up shortly.
-- **Placeholder Image**: ![Thank You Page Placeholder](https://via.placeholder.com/600x400?text=Thank+You+Page)
+- **Placeholder Image**: ![Thank You Page ](/assets/images/thankread.png)
 
 ## Features
 
@@ -110,7 +110,13 @@ The target audience includes individuals and organizations looking to plan event
 - **Carousel**: Automated using JavaScript, this carousel showcases different services with images and descriptions, along with buttons that take the user directly to the relevant page.
 
 ![Carousel Smaller Screen](/assets/images/rescarousel.png)  
+
 ![Carousel Larger Screen](/assets/images/carousel.png)
+
+- **call to action button**:
+
+![index Page call to action ](/assets/images/what-are-youwaiting-for-button.png)
+
 
 - **Marketing Grid**: Takes the user to relevant pages within the website when clicking on the interactive button links.
 
