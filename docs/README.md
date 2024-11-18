@@ -21,7 +21,7 @@ The target audience includes individuals and organizations looking to plan event
   - A carousel featuring images and descriptions of services, including:
     - **Unforgettable Weddings**: 
       - _Description_: Tailored wedding planning services.
-      - _Image_: ![Elegant wedding setup](/assets/images/beach.jpg)
+      - _Image_: ![beach-wedding](/assets/images/readbeach.jpg)
 
 ### 2. Locations
 - **Description**: This page features a selection of event venues available for rent, providing an inviting overview with images.
@@ -29,7 +29,7 @@ The target audience includes individuals and organizations looking to plan event
 - **Main Content**:
   - An introductory section with a heading and description.
   - **Example Venue**:
-    - **Berlin**: ![Berlin](/assets/images/berlin.jpg)
+    - **Berlin**: ![berlin](/assets/images/readberlin.jpg)
 
 ### 3. Photography
 - **Description**: This page showcases the photography services offered by Souma's Events, highlighting a collection of stunning images from various events like weddings, parties, and corporate gatherings.
@@ -40,7 +40,7 @@ The target audience includes individuals and organizations looking to plan event
     - Description: A brief welcome message highlighting the purpose of the gallery.
     - Call to Action: A button linking to the contact page.
   - **Example Image**:
-    - Buffet: ![Buffet](/assets/images/bouffet.jpg)
+    - Buffet: ![buffet](/assets/images/readbouffet.jpg)
 
 ### 4. Catering
 - **Description**: This page provides information about catering options available for events. It includes an overview of services but does not display specific pricing.
@@ -81,6 +81,16 @@ The target audience includes individuals and organizations looking to plan event
   - Catering
   - Locations
   - Contact Us
+  - Buffet
+
+- 1/2
+![Responsive Navbar](/assets/images/respnavbar.png)
+- 2/2
+![extended](/assets/images/resnavbar.png)
+
+- here is the desktop screen version of the navigation bar:
+![desktop navbar](/assets/images/navread.png)
+
 - **Footer**: A consistent footer across all pages, containing:
   - Contact information, including address and multiple email contacts for inquiries.
   - Social media links (Facebook, Twitter, Instagram, LinkedIn).
