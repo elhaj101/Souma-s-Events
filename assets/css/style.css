@@ -14,6 +14,17 @@ body {
 
 /* Classes */
 
+.image-container {
+    width: 100%;       /* Full width */
+    max-width: 600px; /* Maximum width */
+    margin: 0 auto;   /* Centering */
+}
+
+.image-container img {
+    width: 100%;      /* Responsive width */
+    height: auto;     /* Maintain aspect ratio */
+}
+
 /* classes for cards in the Locations page */
 .card img[alt="tower"] {
     height: 250px; /* Set your desired height */
