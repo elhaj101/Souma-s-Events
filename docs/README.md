@@ -33,14 +33,14 @@ The target audience includes individuals and organizations looking to plan event
 - **User Interaction**: Visitors can navigate to other sections of the website from the homepage using a responsive navbar.
 - **Main Content**:
   - A carousel featuring images and descriptions of services.
-- **Placeholder Image**: ![Index Page ](/assets/images/indexread.png)
+- ![Index Page ](/assets/images/indexread.png)
 
 ### 2. Locations
 - **Description**: This page features a selection of event venues available for rent, providing an inviting overview with images.
 - **User Interaction**: Users can view different venues and are encouraged to contact the company for more information.
 - **Main Content**:
   - An introductory section with a heading and description.
-- **Placeholder Image**: ![Locations Page ](/assets/images/locationsread.png)
+- ![Locations Page ](/assets/images/locationsread.png)
 
 ### 3. Photography
 - **Description**: This page showcases the photography services offered by Souma's Events, highlighting a collection of stunning images from various events like weddings, parties, and corporate gatherings.
@@ -50,12 +50,12 @@ The target audience includes individuals and organizations looking to plan event
     - Title: "Capturing Moments That Matter"
     - Description: A brief welcome message highlighting the purpose of the gallery.
     - Call to Action: A button linking to the contact page.
-- **Placeholder Image**: ![Photography Page ](/assets/images/photographyread.png)
+- ![Photography Page ](/assets/images/photographyread.png)
 
 ### 4. Catering
 - **Description**: This page provides information about catering options available for events. It includes an overview of services but does not display specific pricing.
 - **User Interaction**: Users can learn about catering services and make inquiries through the contact form on the website.
-- **Placeholder Image**: ![Catering Page ](/assets/images/cateringread.png)
+- ![Catering Page ](/assets/images/cateringread.png)
 
 ### 5. Contact
 - **Description**: A contact page that allows potential clients to reach out to Souma's Events for inquiries or bookings.
@@ -63,7 +63,7 @@ The target audience includes individuals and organizations looking to plan event
 - **Main Content**:
   - **Contact Form**: Users can provide their name, email, city, and select a subject related to their inquiry.
   - **Submission Confirmation**: Upon submission, users are directed to a thank you page.
-- **Placeholder Image**: ![Contact Page ](/assets/images/contactreadd.png)
+- ![Contact Page ](/assets/images/contactreadd.png)
 
 ### 6. About Us
 - **Description**: This page details the mission, vision, and background of Souma's Events, introducing the team and their expertise.
@@ -73,7 +73,7 @@ The target audience includes individuals and organizations looking to plan event
     - **Anna Schmidt**, Event Planning Manager: With over 8 years of experience, Anna ensures every detail is perfect.
     - **Markus Müller**, Culinary Expert: With over 10 years in the catering industry, Markus specializes in curating menus that delight every palate.
     - **Julia Fischer**, Photographer: With a keen eye for detail, Julia captures the essence of every event, ensuring that memories are preserved beautifully.
-- **Placeholder Image**: ![About Us Page ](/assets/images/aboutusread.png)
+- ![About Us Page ](/assets/images/aboutusread.png)
 
 ### 7. Thank You
 - **Description**: The Thank You page serves as a confirmation that a user's inquiry or booking request has been successfully submitted.
@@ -83,7 +83,7 @@ The target audience includes individuals and organizations looking to plan event
 - **Main Content**:
   - A welcoming message thanking the user for their inquiry.
   - Information indicating that the team will review the request and follow up shortly.
-- **Placeholder Image**: ![Thank You Page ](/assets/images/thankread.png)
+- ![Thank You Page ](/assets/images/thankread.png)
 
 ## Features
 
@@ -95,7 +95,7 @@ The target audience includes individuals and organizations looking to plan event
   - Contact Us
   - Buffet
 
-  The navbar is designed to be responsive and takes the form of a burger menu on smaller screens, ensuring easy access to navigation links on mobile devices.
+  The navbar is designed to be responsive and takes the form of a burger menu on smaller screens, ensuring easy access to navigation links on mobile devices. The ABOUTUS.html won't be found in the navbar because its not prioritised, it's found in the footer section.
 
 ![Responsive Navbar](/assets/images/respnavbar.png)
 
@@ -103,6 +103,7 @@ The target audience includes individuals and organizations looking to plan event
   - Contact information, including address and multiple email contacts for inquiries.
   - Social media links (Facebook, Twitter, Instagram, LinkedIn).
   - Legal notices and copyright information.
+  - Link to About-us page.
   - Validation certificates from "W3C".
 
 ![Footer](/assets/images/footerread.png)
@@ -113,10 +114,9 @@ The target audience includes individuals and organizations looking to plan event
 
 ![Carousel Larger Screen](/assets/images/carousel.png)
 
-- **call to action button**:
+- **Call to Action Button**:
 
 ![index Page call to action ](/assets/images/what-are-youwaiting-for-button.png)
-
 
 - **Marketing Grid**: Takes the user to relevant pages within the website when clicking on the interactive button links.
 
@@ -154,7 +154,6 @@ The target audience includes individuals and organizations looking to plan event
 - Fill out the contact form with valid and invalid data to test validation.
 
 ### 2. Functionality Testing Results
-
 | Functionality                                      | Page          | Does it work as intended? |
 |---------------------------------------------------|---------------|---------------------------|
 | Carousel transitions and links                     | Index         | ✓ Yes                     |
@@ -172,15 +171,51 @@ The target audience includes individuals and organizations looking to plan event
 | Thank you message upon form submission             | Thank You     | ✓ Yes                     |
 | Confirmation of request processing                  | Thank You     | ✓ Yes                     |
 | Responsive design across all devices                | All pages     | ✓ Yes                     |
+| JavaScript functionality (e.g., interactive elements) | All pages     | ✓ Yes                     |
+| Favicon displays correctly                          | All pages     | ✓ Yes                     |
+| Bootstrap styling applied correctly                 | All pages     | ✓ Yes                     |
+| Links in the head section work                     | All pages     | ✓ Yes                     |
+| All links function correctly                        | All pages     | ✓ Yes                     |
+| Font Awesome links work correctly                   | All pages     | ✓ Yes                     |
 
 ### 3. Lighthouse Performance Audit
 - Run a Lighthouse audit in Chrome DevTools to assess performance, accessibility, best practices, and SEO.
 - Review scores and recommendations for improvements.
 
-### 4. W3C HTML and CSS Validation
-- Use the [W3C Markup Validation Service] to check HTML.
+#### Performance Audit Results
 
-![aboutus validation](/assets/images/aboutus.png)  
+1. **Index Page**
+   - **Description**: The homepage serves as the main entry point, showcasing key services and the carousel.
+   - ![Index Page Lighthouse Audit Placeholder](/assets/images/index.lighthouse.png)
+
+2. **Locations Page**
+   - **Description**: This page features available event venues, highlighting their appeal and accessibility.
+   - ![Locations Page Lighthouse Audit ](/assets/images/locations.lighthouse.png)
+
+3. **Photography Page**
+   - **Description**: Showcases photography services with a gallery of images from various events.
+   - ![Photography Page Lighthouse Audit ](/assets/images/photography.lighthouse.png)
+
+4. **Catering Page**
+   - **Description**: Provides an overview of catering options available for events, emphasizing quality and variety.
+   - ![Catering Page Lighthouse Audit ](/assets/images/catering.lighthouse.png)
+
+5. **Contact Page**
+   - **Description**: Allows users to reach out for inquiries or bookings through a user-friendly contact form.
+   - ![Contact Page Lighthouse Audit ](/assets/images/contact.lighthouse.png)
+
+6. **About Us Page**
+   - **Description**: Details the mission, vision, and team expertise of Souma's Events, building trust with potential clients.
+   - ![About Us Page Lighthouse Audit ](/assets/images/aboutus.lighthouse.png)
+
+7. **Thank You Page**
+   - **Description**: Confirms successful submission of inquiries, reassuring users about the follow-up process.
+   - ![Thank You Page Lighthouse Audit ](/assets/images/thankyou.lighthouse.png)
+
+### 4. W3C HTML and CSS Validation
+- Use the [W3C Markup Validation Service] to check HTML; the green part appears when the code has passed validation.
+
+![aboutus validation](/assets/images/about_us.png)
 ![catering validation](/assets/images/catering.png)
 ![index validation](/assets/images/index.png)
 ![locations](/assets/images/locations.png)
@@ -188,18 +223,32 @@ The target audience includes individuals and organizations looking to plan event
 ![thankyou validation](/assets/images/thankyou.png)
 ![contact validation](/assets/images/contact.png)
 
-
 - Validate CSS using the [W3C CSS Validation Service].
 
 ![w3c](/assets/images/w3c-css-validation.png)  
 
+# Deployment Instructions
 
-## Deployment
+## Step 1: Create a GitHub Repository
 
-### Deployment on GitHub
-1. Create a GitHub repository named `soumas-events`.
-2. Push your local files to the repository:
-   ```bash
-   git add .
-   git commit -m "Initial commit"
-   git push origin main
+1. **Log in to GitHub**: Go to [GitHub](https://github.com) and log in to your account.
+2. **Create a New Repository**:
+   - Click the "+" icon in the upper right corner.
+   - Select "New repository."
+3. **Fill Out Repository Details**:
+   - **Repository Name**: Enter `soumas-events`.
+   - **Description**: (Optional) Provide a brief description.
+   - **Public vs. Private**: Choose the visibility of your repository.
+   - **Initialize with a README**: Check this option if desired.
+4. **Create the Repository**: Click the "Create repository" button.
+
+## Step 2: Enable GitHub Pages
+
+1. **Go to Repository Settings**: Navigate to your new repository and click on the "Settings" tab.
+2. **Scroll to the Pages Section**:
+   - In the left sidebar, find and click on "Pages."
+3. **Select the Source**:
+   - Under "Source," select your branch (usually `main`).
+   - Choose the root folder (or `/docs` if applicable).
+   - Click "Save."
+4. **Access Your Deployed Site**: After a few minutes, visit `https://yourusername.github.io/soumas-events` to see your site live.
