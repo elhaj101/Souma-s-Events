@@ -16,7 +16,8 @@
 3. [Features](#features)
 4. [Credits](#credits)
 5. [Manual Testing](#manual-testing)
-6. [Deployment](#deployment)
+6. [Bugs](#bugs)
+7. [Deployment](#deployment)
 
 ## Introduction
 
@@ -89,13 +90,13 @@ The target audience includes individuals and organizations looking to plan event
 
 - **Navbar**: A responsive navigation bar present on all pages, providing links to:
   - Home
-  - PhotographyPage
+  - Photography Page
   - Catering
   - Locations
   - Contact Us
   - Buffet
 
-  The navbar is designed to be responsive and takes the form of a burger menu on smaller screens, ensuring easy access to navigation links on mobile devices. The ABOUTUS.html won't be found in the navbar because its not prioritised, it's found in the footer section.
+  The navbar is designed to be responsive and takes the form of a burger menu on smaller screens, ensuring easy access to navigation links on mobile devices. The ABOUTUS.html won't be found in the navbar because it's not prioritized; it's located in the footer section.
 
 ![Responsive Navbar](/assets/images/respnavbar.png)
 
@@ -103,7 +104,7 @@ The target audience includes individuals and organizations looking to plan event
   - Contact information, including address and multiple email contacts for inquiries.
   - Social media links (Facebook, Twitter, Instagram, LinkedIn).
   - Legal notices and copyright information.
-  - Link to About-us page.
+  - Link to About Us page.
   - Validation certificates from "W3C".
 
 ![Footer](/assets/images/footerread.png)
@@ -116,7 +117,7 @@ The target audience includes individuals and organizations looking to plan event
 
 - **Call to Action Button**:
 
-![index Page call to action ](/assets/images/what-are-youwaiting-for-button.png)
+![Index Page Call to Action](/assets/images/what-are-youwaiting-for-button.png)
 
 - **Marketing Grid**: Takes the user to relevant pages within the website when clicking on the interactive button links.
 
@@ -145,7 +146,11 @@ The target audience includes individuals and organizations looking to plan event
 
 ## Credits
 - All media files were taken from [pexels.com].
-- The carousel and album templates were taken from [Bootstrap].
+- The carousel and album templates were taken from [Bootstrap].Part of the carousel was taken from here
+ https://getbootstrap.com/docs/5.3/examples/carousel/ and is meant to be open source. then it was edited using HTML and CSS. The albums were taken from here and customised according to project needs 
+ https://getbootstrap.com/docs/5.3/examples/album/.
+
+- Favicons were sourced from [icons8.com].
 
 ### 1. Steps Taken to Manually Test
 - Open the website in various browsers (Chrome, Firefox, Safari) and devices (desktop, tablet, mobile).
@@ -186,14 +191,20 @@ The target audience includes individuals and organizations looking to plan event
 
 1. **Index Page**
    - **Description**: The homepage serves as the main entry point, showcasing key services and the carousel.
+   - **Initial Performance**: Received low Lighthouse scores due to large image files.
+   - **Improvements**: Images were re-scaled using GIMP and uploaded again. After retesting, high performance scores were achieved.
    - ![Index Page Lighthouse Audit Placeholder](/assets/images/index.lighthouse.png)
 
 2. **Locations Page**
    - **Description**: This page features available event venues, highlighting their appeal and accessibility.
+   - **Initial Performance**: Received low Lighthouse scores due to large image files.
+   - **Improvements**: Images were re-scaled using GIMP and uploaded again. After retesting, high performance scores were achieved.
    - ![Locations Page Lighthouse Audit ](/assets/images/locations.lighthouse.png)
 
 3. **Photography Page**
    - **Description**: Showcases photography services with a gallery of images from various events.
+   - **Initial Performance**: Received low Lighthouse scores due to large image files.
+   - **Improvements**: Images were re-scaled using GIMP and uploaded again. After retesting, high performance scores were achieved.
    - ![Photography Page Lighthouse Audit ](/assets/images/photography.lighthouse.png)
 
 4. **Catering Page**
@@ -227,18 +238,26 @@ The target audience includes individuals and organizations looking to plan event
 
 ![w3c](/assets/images/w3c-css-validation.png)  
 
+## Bugs
+
+| Bug Description                                     | Resolution                                           |
+|----------------------------------------------------|-----------------------------------------------------|
+| **Image loading issues**: The index, photography, and locations pages had slow loading times due to large image files. | Images were re-scaled using GIMP to reduce their size, improving loading times and performance scores. |
+| **Form validation errors**: The contact form did not properly validate email fields in some browsers. | Adjusted HTML input types and added JavaScript validation to ensure consistent behavior across all browsers. |
+| **Responsive design issues**: Certain elements were not displaying correctly on smaller screens. | Modified CSS media queries to enhance responsive design across all devices, ensuring a better user experience. |
+
 # Deployment Instructions
 
 ## Step 1: Create a GitHub Repository
 
-1. **Log in to GitHub**: Go to [GitHub](https://github.com) and log in to your account.
+1. **Log in to GitHub**: Go to [GitHub] and log in to your account.
 2. **Create a New Repository**:
    - Click the "+" icon in the upper right corner.
    - Select "New repository."
 3. **Fill Out Repository Details**:
-   - **Repository Name**: Enter `soumas-events`.
+   - **Repository Name**: Enter `Souma-s-Events`.
    - **Description**: (Optional) Provide a brief description.
-   - **Public vs. Private**: Choose the visibility of your repository.
+   - **Public vs. Private**: Choose **Public** for visibility.
    - **Initialize with a README**: Check this option if desired.
 4. **Create the Repository**: Click the "Create repository" button.
 
@@ -251,4 +270,4 @@ The target audience includes individuals and organizations looking to plan event
    - Under "Source," select your branch (usually `main`).
    - Choose the root folder (or `/docs` if applicable).
    - Click "Save."
-4. **Access Your Deployed Site**: After a few minutes, visit `https://yourusername.github.io/soumas-events` to see your site live.
+4. **Access Your Deployed Site**: After a few minutes, visit `https://elhaj101.github.io/Souma-s-Events/` to see your site live.
