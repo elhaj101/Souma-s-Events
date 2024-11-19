@@ -3,6 +3,9 @@
 ## Project Name
 **Souma's Events**
 
+**Gitpod**
+- Use instructive verbs when committing changes, i.e " update header" or "add footer" and not " updated header " or " added footer ". If you forgot to do so in the beginning but then fixed the mistake before the end of the project, make sure to mention that in your READ.me file, as I did just now.
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Pages Overview](#pages-overview)
@@ -23,6 +26,8 @@
 
 **Description**:  
 Souma's Events is a comprehensive website designed for an events planning business. It serves as a platform to showcase services, provide information, and engage with potential clients. The goal is for users to be encouraged to fill out a contact form and make a business inquiry, which can be found on the contact.html page.
+
+
 
 **User Demographics**:  
 The target audience includes individuals and organizations looking to plan events such as weddings, corporate gatherings, parties, and other special occasions.
